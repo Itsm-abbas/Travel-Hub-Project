@@ -73,9 +73,9 @@ const Categories = () => {
           pt-4
           flex 
           flex-row 
+          gap-4
           items-center 
-          justify-between
-          overflow-x-auto
+          justify-center
         "
       >
         {categories.map((item) => (
